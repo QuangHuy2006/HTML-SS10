@@ -1,0 +1,27 @@
+.img{
+    position: relative;
+}
+
+.img img {
+    width: 100%;
+}
+
+.text{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 5px;
+}
+.overlay{
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+}
+.summary{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
